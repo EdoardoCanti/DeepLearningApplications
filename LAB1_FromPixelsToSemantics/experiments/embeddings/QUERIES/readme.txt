@@ -1,0 +1,1 @@
+Embeddings explaination: FT_ResNet18 embeddings for test set

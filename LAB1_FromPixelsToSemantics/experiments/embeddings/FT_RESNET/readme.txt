@@ -1,0 +1,1 @@
+Embeddings explaination: GTSRB Embeddings obtained using FT_ResNet18 (first two freezed)

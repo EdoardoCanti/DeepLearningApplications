@@ -1,0 +1,1 @@
+Embeddings explaination: GTSRB Embeddings obtained using ResNet18+MLP (first two freezed)

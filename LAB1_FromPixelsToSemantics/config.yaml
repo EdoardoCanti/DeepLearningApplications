@@ -1,0 +1,42 @@
+STABLE_REPRODUCIBLE_BASELINE:
+  batch_size: 512
+
+FINE_TUNED_BASELINE:
+  batch_size: 512
+  lr: 0.001
+  training_epochs: 20
+  early_stopping: true
+  patience: 8
+  
+EXPERIMENTS_HYPERPARAMS:
+  learning_rates:
+    - 0.01
+    - 0.001
+    - 0.0001
+  batch_sizes:
+    - 128
+    - 256
+    - 512
+  training_epochs: 
+    - 10
+    - 20
+    - 30
+  early_stopping: true
+  patience: 10
+
+SPECTRAL:
+  rerun: false
+
+MLP:
+  input_layer_nodes: 512
+  hidden_layer_nodes: 256
+  output_layer_nodes: 43
+  weight_init: "he_uniform" #'he_normal', #'he_uniform'
+  activation_function: "relu"
+
+MLP_EXPERIMENT_HYPERPARAMS:
+  learning_rate: 0.001
+  batch_size: 128
+  training_epochs: 15
+  early_stopping: true
+  patience: 5
