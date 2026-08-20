@@ -1,0 +1,40 @@
+DATA:
+  slug: 'cornell-movie-review-data/rotten_tomatoes'
+  
+MODEL:
+  slug: 'distilbert/distilbert-base-uncased'
+
+
+EXEC:
+  recompute_embeddings: true # If recompute_embeddings == true the following dirs will be created and pt files will be saved
+  training_cls_embeddings_path: 'artifacts/training_cls_embeddings.pt'
+  test_cls_embeddings_path: 'artifacts/test_cls_embeddings.pt'
+  vali_cls_embeddings_path: 'artifacts/val_cls_embeddings.pt'
+
+SVC:
+  random_state: 99
+  c_regularizer_lowerbound: 1e-5
+  c_regularizer_upperbound: 1
+
+TOKENIZED_DATA:
+  save_path: 'artifacts/tokenized_data/tokenized_data.pt'
+  exec_tokenization: true
+
+FINE_TUNING_PHASE:
+  learning_rate: [2.0e-5, 2.0e-6]
+  batch_size: [16, 64]
+  # https://github.com/huggingface/transformers/blob/main/src/transformers/training_args.py at OptimizerNames
+  optimizers: ['adamw_torch', 'sgd']
+  run_hpo: true
+  best_model_path: './hpo_results/run_lr_2e-05_bs_64_opt_adamw_torch/checkpoint-402'
+
+CLIP:
+  SEED: 99 
+  DATA_SLUG: 'maveriq/tobacco3482'
+  CLIP_MODEL_SLUG: 'openai/clip-vit-base-patch16'
+  CLIP_TASK: 'zero-shot-image-classification'
+  RUN_CLIP_PREPROCESS: true
+  FT_EPOCHS: 10
+  FT_LR: 1e-4
+  FT_BS: 16
+  PROJECT_NAME: 'Tobacco3482_ClipLoRA_Comparisons' # original name (CHANGE IF YOU WANT)

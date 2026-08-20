@@ -1,0 +1,32 @@
+# File di sistema e cache Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Main dir general stuff to ignore
+Tobacco3482_ClipLoRA_Comparisons.csv
+artifacts/
+artifacts.zip
+db.sqlite3
+exporting_wandb.ipynb
+graphs.ipynb
+hpo_results/
+lab2-ORIG.ipynb
+optuna_images/
+tokenizer_vocabulary.json
+wandb/
+
+# Ignoring stuff in notebooks/
+notebooks/old_stuff/
+notebooks/wandb/
+notebooks/wandb-previous/
+notebooks/LAB2_exercise3-v1.ipynb
+
+# Ignoring stuff in src/
+src/LAB2_exercise1_2-FAKE.py
+src/test.ipynb
+src/evaluating_CustomTokenizer.py
+
+# Ignoring stuff in utils/
+utils/HyperparamOptim-orig.py
+utils/TobaccoDataset.py
