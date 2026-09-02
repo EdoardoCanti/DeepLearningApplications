@@ -1,0 +1,635 @@
+{
+    "total_steps": 35,
+    "bounds_per_step": [
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.03108313027769327
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.031775408424437046
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.03856503311544657
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.03975955117493868
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.047096394933760166
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.04889074806123972
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.04519154969602823
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.036010720767080784
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.033011400140821934
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.024444972164928913
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.02198729757219553
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.02558672148734331
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.023527116514742374
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.027531553991138935
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.03758747596293688
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.04202032554894686
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.040896438993513584
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.045935519970953465
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.057130769826471806
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.0628242501989007
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.06309124920517206
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.05797033850103617
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.059136257506906986
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.054881506599485874
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.056890600360929966
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.06513872090727091
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.06795857939869165
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.06540615204721689
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.06916885171085596
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.07923186663538218
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.09561644587665796
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.1183790871873498
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.14760978613048792
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.18342936132103205
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        },
+        {
+            "0": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "1": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            },
+            "2": {
+                "is_out_domain": true,
+                "error_magnitude": 0.225985542871058
+            },
+            "3": {
+                "is_out_domain": false,
+                "error_magnitude": 0.0
+            }
+        }
+    ]
+}

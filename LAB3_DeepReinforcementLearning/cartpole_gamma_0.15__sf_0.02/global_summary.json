@@ -1,0 +1,23 @@
+{
+    "total_episodes": 1000,
+    "episodes_with_out_of_bounds": 1000,
+    "ratio_episodes_with_out_of_bounds": 1.0,
+    "variables": {
+        "0": {
+            "mean_out_of_domain_ratio": 0.23466847368317956,
+            "mean_error_magnitude": 0.01029187297542791
+        },
+        "1": {
+            "mean_out_of_domain_ratio": 0.0,
+            "mean_error_magnitude": 0.0
+        },
+        "2": {
+            "mean_out_of_domain_ratio": 0.9212063654482772,
+            "mean_error_magnitude": 0.07673462927080676
+        },
+        "3": {
+            "mean_out_of_domain_ratio": 0.0,
+            "mean_error_magnitude": 0.0
+        }
+    }
+}

@@ -1,0 +1,15 @@
+EXE_OPTS:
+   run_exercise: [1,2,3]
+
+EXE1:
+    gammas: [0.99, 0.50, 0.15]
+    scale_factors: [0.02, 0.75]
+    n: 100
+    m: 10
+    NUM_EPISODES: 1000
+
+EXE2:
+    gammas: [0.99]
+    n: 100
+    m: 10
+    NUM_EPISODES: 1000

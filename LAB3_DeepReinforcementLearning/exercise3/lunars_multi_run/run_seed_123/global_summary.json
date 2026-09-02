@@ -1,0 +1,39 @@
+{
+    "total_episodes": 1000,
+    "episodes_with_out_of_bounds": 1000,
+    "ratio_episodes_with_out_of_bounds": 1.0,
+    "variables": {
+        "0": {
+            "mean_out_of_domain_ratio": 0.0,
+            "mean_error_magnitude": 0.0
+        },
+        "1": {
+            "mean_out_of_domain_ratio": 0.4832091298293182,
+            "mean_error_magnitude": 0.1290624215779203
+        },
+        "2": {
+            "mean_out_of_domain_ratio": 0.0,
+            "mean_error_magnitude": 0.0
+        },
+        "3": {
+            "mean_out_of_domain_ratio": 0.0,
+            "mean_error_magnitude": 0.0
+        },
+        "4": {
+            "mean_out_of_domain_ratio": 0.00029425736181153594,
+            "mean_error_magnitude": 8.285640010342513e-05
+        },
+        "5": {
+            "mean_out_of_domain_ratio": 0.0005743581629435838,
+            "mean_error_magnitude": 0.00034447088304768623
+        },
+        "6": {
+            "mean_out_of_domain_ratio": 0.025416365847068977,
+            "mean_error_magnitude": 0.013979001518874629
+        },
+        "7": {
+            "mean_out_of_domain_ratio": 0.027792669387954917,
+            "mean_error_magnitude": 0.015285968494689642
+        }
+    }
+}
